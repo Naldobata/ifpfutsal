@@ -133,11 +133,12 @@ div#menu:hover{
     .container{display: flex;
                flex-wrap: wrap; 
             width: 660px; /* 3 caixas de 200px + margens */
-    justify-content: space-between;
+   
       max-width: 660px; /* Limita a largura total */
       margin: auto;
     gap: 10px;
 column-gap: 6px;
+justify-content: space-evenly;
  }
 
      
