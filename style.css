@@ -1,8 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
 
-
-
+div#t{width:fit-content;
+}
+div#f{width: fit-content;}
 body{
     margin: 0px;
     padding: 0px;
@@ -70,6 +71,7 @@ body{
         border-radius: 4px;
         margin: 10px;
         text-align: center;    
+        width:auto;
      }
 
      div#f{
@@ -89,6 +91,7 @@ body{
         margin: 10px;
         text-align: center;  
         box-shadow: 2px 2px 2px red;
+        width: auto;
         
        
 
@@ -108,6 +111,8 @@ body{
     column-gap: 20px;
     justify-content: normal;
     margin-bottom: 0px;
+   
+    
     
     }
 
