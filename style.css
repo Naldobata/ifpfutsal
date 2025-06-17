@@ -326,15 +326,19 @@ div#menu:hover{
 
       div#n{width: auto;
             height: 250px;
+            
             margin: 10px 40px 10px 40px;
             border:2px aqua solid;
             background-color:rgba(0, 255, 255, 0.137);
             border-radius: 0px 10px 0px 10px;
             box-shadow: 1px 1px 1px 2px rgb(0, 0, 0);
             color: rgb(0, 0, 0);
+            
+            
             align-content: flex-end;      
            background-size: cover;
             padding: 10px 10px 10px 10px;
+            white-space: nowrap;
            
             
                          
@@ -345,7 +349,9 @@ div#menu:hover{
     h2#n{ background-color: aqua;
           display: inline;
           border-radius: 10px 10px 10px 10px ;
-          padding: 0px 10px 0px 10px}
+          padding: 0px 10px 0px 10px;
+          width: 100%;
+          height: 100%;}
 
   div#n:hover{
     color: rgb(0, 38, 255);
