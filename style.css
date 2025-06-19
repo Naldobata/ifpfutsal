@@ -5,396 +5,443 @@
 
 
 body{
-    margin: 0px;
-    padding: 0px;
-   
-    color: rgb(0, 0, 0);
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: italic; 
-     
-    
-    }
-    body>p{padding: 10px 10px 0px 10px ;}
-   
-   img{height: 70px;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic; 
+  }
+
+body>p{
+  padding: 10px 10px 0px 10px;
       }
-    
-    a{color:rgb(0, 0, 0);
-      text-decoration:solid;
-      text-shadow: 10px;
-      text-decoration-color: black;
-      border: 10px;        
-     }
-    span{ background-color:transparent;
-        margin-top: 10px;
-         border: 3px rgb(0, 51, 194) solid;
-        border-radius: 20px;
-        text-align: center;
-        
-        margin: 10px; 
-        transition: 0.3s ease; 
-        color: rgb(0, 0, 0);   
-        
-         
-    }
-
-    span:hover{ background-color: rgba(218, 217, 217, 0.714);
-               color: black;
-
-              
-               }
-
-             
-
-    a:hover{ 
-        color:black;
-        
-        animation: infinite;
-        animation-duration: 5s;
-        animation-delay: 5s;
-        transition: 0.3s ease;
-    transform: scale(1.05);
-
-           }
-
-    a#my{color: rgb(0, 251, 255)}
-    a#my:hover{background-color: rgba(255, 255, 255, 0.549);
-               border-radius: 3px 3px 1px 0px ;}
-
-    a#fb:hover{background-color:rgb(21, 117, 234);}       
-
-    div#t{
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 10px;
-        margin-left: 0px;
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-       background-color: rgb(0, 51, 194);
-        margin-top: 10px;
-        box-shadow: 2px 2px 1px 0px;
-        border-radius: 10px;
-        border-radius: 4px;
-        margin: 10px;
-        text-align: left;    
-        width:auto;
-        color:white;
-        display: flex;
-        height: 500px;
-        box-shadow: 0px 0px 5cap 0px rgb(0, 0, 0) ;
-        
-     }
-
-     div#f{
-       padding: 0px;
-       margin: 0px;
-       margin-bottom: 0px;
-       margin-left: 0px;
-       margin-right: 0px;
-       color: white;
-
-
-        background-color: rgb(0, 51, 194);
-        margin-top: 10px;
-        box-shadow: 2px 2px 1px 0px;
-        border-radius: 10px;
-        border-radius: 4px;
-        margin: 10px;
-        text-align: center;  
-        box-shadow: 2px 2px 2px red;
-        width: auto;
-        
-       
-
-     }
-
-
-     div#menu{
-     background-color: transparent;
-    width: 190px;
-    height: 190px;
-     color: black;
-     text-align: center;
-     align-items: center;
-     
-     align-content: center;
-     border-radius: 20px;
-     transition: 0.3s ease;
-    column-gap: 20px;
-    justify-content: normal;
-    margin-bottom: 0px;
-    font-size: 20px;
-    margin-left: 0px;
    
-       
+img{
+  height: 70px;
+   }
+    
+a{
+  color:rgb(0, 0, 0);
+  text-decoration:solid;
+  text-shadow: 10px;
+  text-decoration-color: black;
+  border: 10px;        
+  }
+span{
+  background-color:transparent;
+  margin-top: 10px;
+  border: 3px rgb(0, 51, 194) solid;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px; 
+  transition: 0.3s ease; 
+  color: rgb(0, 0, 0);   
     }
 
-     div#tv{
-      
+span:hover{
+  background-color: rgba(218, 217, 217, 0.714);
+  color: black;
+          }
 
-     background-color: transparent;
-     display: inline;
-    background-color: rgb(0, 51, 194);
-    color: white;
-    
-    
+a:hover{ 
+  color:black;
+  animation: infinite;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  transition: 0.3s ease;
+  transform: scale(1.05);
+       }
 
-     border: 3px rgb(34, 25, 219) solid;
-     text-align: center;
-     align-items: center;
-     
-     align-content: center;
-     border-radius: 20px;
-     transition: 0.3s ease;
-    
-    
-    font-size: 20px;
-    margin-left: 0px;
-       
-    }
-    a#span{margin-left: 5px;
-      margin-right: 5px;
+a#my{
+  color: rgb(0, 251, 255)
     }
 
+a#my:hover{
+  background-color: rgba(255, 255, 255, 0.549);
+  border-radius: 3px 3px 1px 0px ;
+          }
 
+a#fb:hover{
+  background-color:rgb(21, 117, 234);
+          }       
+
+div#t{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(0, 51, 194);
+  margin-top: 10px;
+  box-shadow: 2px 2px 1px 0px;
+  border-radius: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: left;    
+  width:auto;
+  color:white;
+  display: flex;
+  height: 500px;
+  box-shadow: 0px 0px 5cap 0px rgb(0, 0, 0) ;
+     }
+
+div#f{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+  background-color: rgb(0, 51, 194);
+  margin-top: 10px;
+  box-shadow: 2px 2px 1px 0px;
+  border-radius: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: center;  
+  box-shadow: 2px 2px 2px red;
+  width: auto;
+    }
+
+div#menu{
+  background-color: transparent;
+  width: 190px;
+  height: 190px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  column-gap: 20px;
+  justify-content: normal;
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-left: 0px;
+       }
+
+div#bur{
+  background-color: aqua;
+  width: 100%;
+  height: 40px;
+  margin-top: 0px;
+  background-color: darkgray ;
+  border: 1px rgb(47, 0, 255) solid;
+  padding-top: 15px;
+  color: rgb(0, 17, 250);
+  
+  box-shadow: 2px 2px rgb(0, 21, 255);
+    
+}
+
+div#bur:hover{
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.03);
+  background-color: aqua;
+             }
+
+
+a#span{
+  background-color: transparent;
+  width: 100%;
+  background-color: rgb(0, 51, 194);
+  color: white;
+  border: 3px rgb(34, 25, 219) solid;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  font-size: 20px;
+  border: 0px;
+    }
+
+a#span:hover{
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.03);
+  background-color: aqua;
+             }
+
+i#burger{
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 51, 194); 
+  margin-top: 0px;
+  width: auto; 
+  display: block;
+  text-align: center;
+  cursor: pointer;  
+  padding: 1px;
+  box-shadow: 2px 2px 2px black;
+        }
+
+i#burger:hover{
+  color: black;
+  background-color: aqua;
+              }
+  
+menu{
+  display: none;
+    }
+
+menu#itens{
+  margin: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+menu > ul{
+  list-style-type:none;
+  padding: 0px;
+}
+
+
+
+
+
+div#tt{
+  width: auto;
+  display: block;
+}
+
+  
 
 
 div#menu:hover{
-   
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.03);
+             }
+
+div#tv:hover{
+  background-color: rgba(0, 255, 255, 0.714);
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.03);
+  border: 2px aqua solid;
+            }
     
-    color: black;
-    transition: 0.3s ease;
-    transform: scale(1.03);
-   }
+img#menu{
+  width: 190px; height: 190px; border-radius: 30px;
+        }
 
-   div#tv:hover{
-   
-    background-color: rgba(0, 255, 255, 0.714);
-    color: black;
-    transition: 0.3s ease;
-    transform: scale(1.03);
-    border: 2px aqua solid;}
-    
+p#fff{
+  color: rgb(21, 117, 234) ;
+  box-shadow: 2px 0px 0px red;
+     }
 
-    img#menu{width: 190px; height: 190px; border-radius: 30px; }
-    p#fff{color: rgb(21, 117, 234) ;
-     box-shadow: 2px 0px 0px red;}
-
-    .container{display: flex;
-               flex-wrap: wrap; 
-               margin: auto;
-               gap: 10px;
-               column-gap: 6px;
-               justify-content: space-evenly;
-               
-               width: auto;
-               width: 100%;
- }
-
-
-     
-
- 
-
-    .box {
-      flex: 0 0 32%;
-      height: 100px;
-      background-color: #4CAF50;
-      color: white;
-      text-align: center;
-      line-height: 100px;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    img#size{height:150px;
-             width: 175px;
-             border-radius: 20px;}
-    
-   p#size{align-items: center;}
-
-   img#fb{height: 50px;}
-   img#fa{height: 47px;}
-  img#fd{height: 56px;}
-
-
-  table{width: 500px;
-        border-collapse: collapse;
-        margin: 0 auto;
-       }
-
-  table#legenda{width: 190px;}
-       
-  td, th{border: 1px solid black;
-        text-align: center;
-        padding: 5px;}
-
-  thead, tfoot{background-color:rgb(21, 117, 234);
-               color: black;}
-
-  div#voltar{ 
-     background-image: linear-gradient(272deg, rgb(118, 255, 255), rgb(21, 117, 234));;
-     width: 50px;
-     height:20px;
-     border: 3px black solid;
-     text-align: center;
-     align-items: center;
-     align-content: center;
-     border-radius: 20px;
-     transition: 0.3s ease;
-    column-gap: 20px;
-    justify-content: normal;
-    margin-bottom: 0px;
-    
-        margin: 0 auto;
-    
-    }
-
-    div#voltar:hover{
-    background-image: linear-gradient(272deg,rgb(21, 117, 234), rgb(118, 255, 255));
-    
-    color: white;
-    transition: 0.3s ease;
-    transform: scale(1.05);
-
-         
-         }
-
-
-
-
-         .container {
+.container{
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; 
+  margin: auto;
+  gap: 10px;
+  column-gap: 6px;
+  justify-content: space-evenly;
+  width: auto;
+  width: 100%;
+          }
 
 .box {
-  width: 300px;
-}
+  flex: 0 0 32%;
+  height: 100px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  margin-bottom: 10px;
+    }
+
+img#size{
+  height:150px;
+  width: 175px;
+  border-radius: 20px;
+        }
+    
+p#size{
+  align-items: center;
+     }
+
+img#fb{height: 50px;}
+img#fa{height: 47px;}
+img#fd{height: 56px;}
 
 
- 
-
-  h2#ca{color: black;
-        text-shadow: 3px ;
-         text-decoration: aqua;}
-
-         img#ifp{width: 100px;
-        height: 100px;
-        align-items: start; 
-      text-align: left;
-      margin-top: 30px;
-      margin-bottom: 15px;
-      margin-right: 20px;
+table{
+  width: 500px;
+  border-collapse: collapse;
+  margin: 0 auto;
       }
 
-      h1#top{margin-top: 0px; font-family: unset; margin-top: 50px; text-align: center;}
+table#legenda{width: 190px;}
+       
+td, th{
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+      }
 
-      img#fa{height: 40px;
-              width: 40px;}
-    img#vl{height: 40px;
-          width: 40px;
-          margin-top: 20px;
+thead, tfoot{
+  background-color:rgb(21, 117, 234);
+  color: black;}
+
+div#voltar{ 
+  background-image: linear-gradient(272deg, rgb(118, 255, 255), rgb(21, 117, 234));;
+  width: 50px;
+  height:20px;
+  border: 3px black solid;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  column-gap: 20px;
+  justify-content: normal;
+  margin-bottom: 0px;
+  margin: 0 auto;
+        }
+
+div#voltar:hover{
+  background-image: linear-gradient(272deg,rgb(21, 117, 234), rgb(118, 255, 255));
+  color: white;
+  transition: 0.3s ease;
+  transform: scale(1.05);
+                }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+            }
+
+.box {width: 300px;}
+
+h2#ca{
+  color: black;
+  text-shadow: 3px ;
+  text-decoration: aqua;
+     }
+
+img#ifp{
+  width: 100px;
+  height: 100px;
+  align-items: start; 
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+      }
+
+h1#top{
+  margin-top: 0px;
+  font-family: unset;
+  margin-top: 50px;
+  text-align: center;
+      }
+
+img#fa{
+  height: 40px;
+  width: 40px;
+      }
+
+img#vl{
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
        }
 
-       div#for{background-color: rgba(161, 161, 161, 0.7);
-               border: 3px black solid;
-               border-radius: 0px 20px 0px 20px;
-               margin-top: 30px;
-               margin-left: 15px;
-               margin-right: 15px;
-               text-align: justify;
-               align-items: center;
-               
+div#for{
+  background-color: rgba(161, 161, 161, 0.7);
+  border: 3px black solid;
+  border-radius: 0px 20px 0px 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+  align-items: center;
+       }
 
+hr#hh{
+  color: black;
+  background-color: black;
+     }
+
+div#dad{ 
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  align-items: flex-start;
+       }
+
+div#n{
+  width: auto;
+  height: 250px;
+  margin: 10px 40px 10px 40px;
+  border:2px rgb(0, 51, 194) solid;
+  background-color:rgba(0, 255, 255, 0.137);
+  border-radius: 0px 10px 0px 10px;
+  box-shadow: 1px 1px 1px 2px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  align-content: flex-end;      
+  background-size: cover;
+  padding: 10px 10px 10px 10px;
       }
-
-      
-
-      hr#hh{color: black; background-color: black;}
-
-      div#dad{ 
-               flex-wrap: wrap;
-               flex-direction: row;
-               align-content: flex-end;
-              justify-content: space-evenly;
-              align-items: flex-start;
-              }
-
-      div#n{width: auto;
-            height: 250px;
-            
-            margin: 10px 40px 10px 40px;
-            border:2px aqua solid;
-            background-color:rgba(0, 255, 255, 0.137);
-            border-radius: 0px 10px 0px 10px;
-            box-shadow: 1px 1px 1px 2px rgb(0, 0, 0);
-            color: rgb(0, 0, 0);
-            
-            
-            align-content: flex-end;      
-           background-size: cover;
-            padding: 10px 10px 10px 10px;
-            
-           
-            
-                         
-             }
 
           
 
-    h2#n{ background-color: aqua;
-          display: inline;
-          border-radius: 10px 10px 10px 10px ;
-          padding: 0px 10px 0px 10px;
+h2#n{
+  background-color:rgb(0, 51, 194);
+  display: inline;
+  border-radius: 10px 10px 10px 10px ;
+  padding: 0px 10px 0px 10px;
     }
 
-  div#n:hover{
-    color: rgb(0, 38, 255);
-    transition: 0.3s ease;
-    transform: scale(1.03);
-    background-color: rgb(226, 226, 226);
-   }
+div#n:hover{
+  color: aqua;
+  transition: 0.3s ease;
+  transform: scale(1.03);
+ background-color: rgb(226, 226, 226);
+          }
 
-     
+h3{color: rgb(0, 255, 247);}
 
-      h3{color: rgb(0, 0, 255);}
+h1#not{ 
+  text-align: center;
+  background-color: rgb(0, 51, 194);
+  border-radius: 10px 10px 10px 10px;
+      }
 
-      h1#not{ 
-              
-               text-align: center;
-              background-color: aqua;
-              border-radius: 10px 10px 10px 10px;
-              
-            }
+h1#rak{ 
+  text-align: center;
+  background-color: rgb(34, 25, 219);
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+       }
 
-       h1#rak{ 
-              
-               text-align: center;
-              background-color: rgb(34, 25, 219);
-              border-radius: 10px 10px 10px 10px;
-              color: white;
-              
-            }
-
-      div#nn{background-color: rgba(0, 255, 255, 0.396);
-               border:2px blue solid;
-               border-radius: 0px 20px 0px 20px;
-               margin-top: 30px;
-               margin-left: 15px;
-               margin-right: 15px;
-               text-align: center;
-               align-items: center;}
+div#nn{
+  background-color: rgba(0, 255, 255, 0.396);
+  border:2px blue solid;
+  border-radius: 0px 20px 0px 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  align-items: center;
+      }
         
 
-        img#nn{width: 300px;
-               height: 250px;
-               border: 1px black solid;
-               border-radius: 10px 10px 10px 10px;
-               align-items: center; 
-              }
+img#nn{
+  width: 300px;
+  height: 250px;
+  border: 1px black solid;
+  border-radius: 10px 10px 10px 10px;
+  align-items: center; 
+      }
 
