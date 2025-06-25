@@ -193,7 +193,7 @@ i#burger{
 
 i#burger:hover{
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: (0, 51, 194);
               }
   
 menu{
@@ -213,17 +213,12 @@ menu > ul{
 }
 
 
-
-
-
 div#tt{
   width: auto;
   display: block;
 }
 
-  
-
-
+ 
 div#menu:hover{
   color: black;
   transition: 0.3s ease;
@@ -454,4 +449,9 @@ img#nn{
   border-radius: 10px 10px 10px 10px;
   align-items: center; 
       }
+
+div#table{
+  overflow-x: auto;
+  width: 95vw;
+    }
 
