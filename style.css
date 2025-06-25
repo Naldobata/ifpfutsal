@@ -191,10 +191,6 @@ i#burger{
   box-shadow: 2px 2px 2px black;
         }
 
-i#burger:hover{
-  color: black;
-  background-color: (0, 51, 194);
-              }
   
 menu{
   display: none;
@@ -451,7 +447,7 @@ img#nn{
       }
 
 div#table{
-  overflow-x: auto;
-  width: 95vw;
+  
+  max-width: 320px;
     }
 
