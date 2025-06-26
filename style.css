@@ -191,6 +191,11 @@ i#burger{
   box-shadow: 2px 2px 2px black;
         }
 
+table{
+  width: 470px;
+  max-width: 460px;
+}
+
   
 menu{
   display: none;
