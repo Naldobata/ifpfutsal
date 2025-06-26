@@ -191,9 +191,11 @@ i#burger{
   box-shadow: 2px 2px 2px black;
         }
 
-table{
-  width: 250px;
-  max-width: 250px;
+
+
+div#res{
+  width: 100%;
+  
 }
 
   
