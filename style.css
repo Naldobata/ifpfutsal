@@ -292,6 +292,8 @@ td, th{
   padding: 5px;
       }
 
+th{color: white;}
+
 thead, tfoot{
   background-color:rgb(21, 117, 234);
   color: black;}
