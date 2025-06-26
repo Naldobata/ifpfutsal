@@ -11,7 +11,8 @@
 
 div#cal{
   background-color: rgb(255, 0, 0);
-  width: 360px;
+  
+  
   
 }
 
@@ -198,10 +199,6 @@ i#burger{
 
 
 
-div#res{
-  width: auto;
-  
-}
 
   
 menu{
@@ -288,7 +285,7 @@ img#fd{height: 56px;}
 
 
 table{
-  width: 500px;
+  
   border-collapse: collapse;
   margin: 0 auto;
       }
