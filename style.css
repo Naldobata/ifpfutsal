@@ -38,8 +38,12 @@ body>p{
       }
    
 img{
+  width: 100px;
   height: 70px;
    }
+picture{
+  width: 100px;
+}
     
 a{
   color:rgb(0, 0, 0);
@@ -143,6 +147,21 @@ div#menu{
   margin-left: 0px;
        }
 
+div#menus{
+   background-color: transparent;
+  width: 190px;
+  height: 190px;
+  color: black;
+  align-content: center;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  column-gap: 20px;
+  justify-content: start;
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-left: 0px;
+}
+
 div#bur{
   background-color: aqua;
   width: 100%;
@@ -241,7 +260,7 @@ div#tv:hover{
             }
     
 img#menu{
-  width: 190px; height: 190px; border-radius: 30px;
+  width: 190px; height: 190px; 
         }
 
 p#fff{
@@ -255,9 +274,8 @@ p#fff{
   width: 100%;
   max-width: 410px;
   background-color: rgb(255, 255, 255);
-  
   align-items: center; 
-  justify-items: center;
+  justify-items: end;
   justify-content: center;
   display: grid;
   grid-template-columns: auto auto;
@@ -272,7 +290,7 @@ p#fff{
 .box {
   width: 500px;
   height: 500px;
-  border: 2px rgb(255, 255, 255) solid;
+  
     }
 
 img#size{
