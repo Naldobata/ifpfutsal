@@ -283,9 +283,12 @@ p#fff{
   grid-template-columns: 220px 220px;
   gap: 1px;
   row-gap: 7px;
-  margin: auto;
-  
-          }
+         }
+
+.dadcont{
+  justify-content: center; 
+  display: flex;
+}
 
 .box {
   width: 500px;
