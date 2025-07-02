@@ -178,6 +178,13 @@ div#bur:hover{
   background-color: rgb(255, 255, 255);
              }
 
+div#bur:active{
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease;
+  transform: scale(1.03);
+  background-color: rgb(255, 255, 255);
+             }
+
 
 a#span{
   background-color: transparent;
