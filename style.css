@@ -105,7 +105,7 @@ div#t{
   border-radius: 4px;
   margin: 10px;
   text-align: left;    
-  width:100vw;
+  width:auto;
   color:white;
   display: flex;
   height: 500px;
@@ -121,13 +121,8 @@ div#f{
   color: white;
   background-color: rgb(0, 51, 194);
   margin-top: 10px;
-  box-shadow: 2px 2px 1px 0px;
-  border-radius: 10px;
-  border-radius: 4px;
-  margin: 10px;
   text-align: center;  
-  box-shadow: 2px 2px 2px red;
-  width: 100vw;
+  width: auto;
     }
 
 div#menu{
