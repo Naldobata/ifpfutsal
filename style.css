@@ -510,18 +510,23 @@ button{
  font-size: 20px;
  box-shadow: 2px 2px 0px 0px rgba(10, 10, 10, 0.759);
  justify-content: center;
+ padding: 2px;
+ margin-right:10px ;
+ margin-left: 10px;
 }
 
-button:hover{
-  color:rgb(0, 51, 194);;
-  transition: 0.3s ease;
-  transform: scale(1.03);
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(0, 51, 194); ;
-             }
+
 
 div#down{
   display: flex;
   justify-content: center;
   
+}
+
+i#qr{
+ background-color:transparent;
+ padding: 10px;
+ width: 20px;
+ border-radius: 20px;
+ padding: 3px;
 }
