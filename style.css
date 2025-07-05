@@ -494,3 +494,9 @@ div#table{
   max-width: 320px;
     }
 
+
+i#sm{
+  margin-right:5px ;
+  margin-left:5px ;
+  margin-bottom: 10px;
+}
