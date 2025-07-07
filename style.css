@@ -470,7 +470,7 @@ div#n2{
   background-size: contain;
   background-repeat: no-repeat;
   background-color:rgb(255, 255, 255);
-  
+  margin-bottom: 30px;
   
       }
 
@@ -576,4 +576,8 @@ i#qr{
  width: 20px;
  border-radius: 20px;
  padding: 3px;
+}
+
+strong{
+  color: red;
 }
