@@ -587,3 +587,22 @@ i#qr{
 strong{
   color: red;
 }
+
+a#mais{
+ color:white ;
+ text-decoration: underline;
+ padding-left: 10px;
+ padding-right: 10px;
+
+ 
+}
+
+div#mais{
+ display: flex;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: rgb(0, 51, 194) ;
+ align-items: center;
+ justify-content: center;
+
+}
